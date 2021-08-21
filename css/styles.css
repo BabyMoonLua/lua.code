@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Georama' Arial, Helvetica, sans-serif;
+}
+.banner{
+    background: url(../img/banner-bg.png) center no-repeat;
+    background-size: auto;
+    height: 90vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    color: beige;
+    
+}
+h1{ 
+    margin: 10px;
+}
+.banner p {
+    margin: 30px;
+}
+.bt2{
+    background-color:#dcd1e2;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.btn-branco {
+    color: white;
+    background-color: rgb(228, 180, 180);
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+.principal{
+    height: 90px;
+}
+.principal h2{
+    text-align: left;
+    margin: 20px;
+    color: rgb(184, 184, 184);
+    font-size: 2rem;
+}
+.colun,.nas{
+    width: 300px;
+    margin-left: 40px;
+}
+.apres{
+    width: 200px;
+    margin-left: 40px;
+}
+.principal{
+    background-color: rgb(255, 255, 255);
+}
+.rodape{
+    background-color: rgb(253, 253, 253);
+}
+.colunas{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+.rodape{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: 90vh;
+    text-align: center;
+
+}
+.rodape a {
+    text-align: center;
+    background-color: #7E459B;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
